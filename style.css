@@ -57,3 +57,20 @@ footer{
     text-align: center;
     border-bottom: 0;
 }
+button{
+    transition: 0.3s;
+}
+button:hover{
+    transform: scale(1.2);
+}
+img{
+    transition: 0.3s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.bg-color-overwrite{
+    margin-top: 25px;
+    background-color: #fceae8;
+    border-radius: 15px;
+}
