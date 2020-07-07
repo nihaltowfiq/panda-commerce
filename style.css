@@ -1,5 +1,16 @@
+body{
+    background-image: linear-gradient(to bottom, #FF136F 0%, #ff3884 30%, #e44a85 65%,#ff75ac 100%);
+}
 .container{
-    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.bg-color-overwrite{
+    margin-top: 25px;
+    background-color: #fceae8;
+    box-shadow: 0px 2px 10px black;
+}
+.mg-top-none{
+    margin-top: 0px;
 }    
 .orange-bg{
     background-color: #fceae8;
@@ -20,17 +31,20 @@
     cursor: pointer;
 }
 .cat-1{
-    background-color: #FF9C35;
+    background-image: linear-gradient(to bottom, #6b6bff,  blue);
 }
+
 .cat-2{
-    background-color: #FF589B;
+    background-image: linear-gradient(to bottom, goldenrod, #ffd119f1);
 }
 .cat-3{
-    background-color: #ffd119f1;
+    background-image: linear-gradient(to bottom, #27b427, green);
 }
 .cat-1, .cat-2, .cat-3{
     padding: 10px 30px;
     border-radius: 15px;
+    box-shadow: 5px 5px 10px #75455d;
+    color: white;
 }
 .catergories h1{
     color: white;
@@ -40,7 +54,7 @@
 }
 .card{
     border: none;
-    box-shadow: 5px 5px 10px lightgray;
+    box-shadow: 5px 5px 10px #75455d;
     border-radius: 15px;
 }
 .card-footer{
@@ -50,10 +64,14 @@
 #subscribe{
     height: 300px;
 }
+#subscribe h3{
+    color: #FF136F;
+}
 #subscribe h6{
     color: grey;
 }
 footer{
+    margin-top: 100px;
     text-align: center;
     border-bottom: 0;
 }
@@ -61,16 +79,11 @@ button{
     transition: 0.3s;
 }
 button:hover{
-    transform: scale(1.2);
+    transform: scale(0.9);
 }
 img{
     transition: 0.3s;
 }
 img:hover{
     transform: scale(1.2);
-}
-.bg-color-overwrite{
-    margin-top: 25px;
-    background-color: #fceae8;
-    border-radius: 15px;
 }
